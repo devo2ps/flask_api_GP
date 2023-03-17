@@ -1,0 +1,46 @@
+march 16
+From here https://realpython.com/flask-connexion-rest-api/
+
+in pursuit of this https://realpython.com/flask-javascript-frontend-for-rest-api/
+
+Most modern web applications are powered by a REST API under the hood. That way, developers can separate the front-end code from the back-end logic, and users can interact with the interface dynamically. In this three-part tutorial series, you’ll build a REST API with the Flask web framework.
+
+You’ll create a foundation with a basic Flask project then add endpoints and connect them to a SQLite database. You’ll test your API with Swagger UI API documentation that you’ll build along the way.
+
+In the first part of this tutorial series, you’ll learn how to:
+
+    Build a base Flask project with a REST API
+    Handle HTTP requests with Connexion
+    Define API endpoints using the OpenAPI specification
+    Interact with your API to manage data
+    Build API documentation with Swagger UI
+
+After finishing the first part of this series, you’ll move on to the second part, where you’ll learn to use a proper database to store your data permanently instead of relying on in-memory storage.
+
+This tutorial series is a hand-on guide on how to create a REST API with Flask and interact with it using CRUD operations. If you want to refresh your knowledge on working with APIs, then you can give Python and REST APIs: Interacting With Web Services a read.
+
+
+
+also could be helpful for DEPLOYMENT later:
+https://www.angela1c.com/posts/2021/06/deploying-flask-apps-on-linode.com/
+
+
+finally some info for git:
+…or create a new repository on the command line
+
+echo "# flask_api_GP" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/devo2ps/flask_api_GP.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/devo2ps/flask_api_GP.git
+git branch -M main
+git push -u origin main
+
+
+anyways...
