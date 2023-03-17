@@ -1,8 +1,10 @@
 # app.py
 
-from flask import Flask, render_template
+from flask import render_template #got rid of import Flask for this stage
+import connexion
 
-app = Flask(__name__)
+app = connexion.App(__name__, specification_dir="./") #removed import Flask up top to instead use connexion.App
+app.add_api("swagger.yml")
 
 @app.route("/")
 def home():

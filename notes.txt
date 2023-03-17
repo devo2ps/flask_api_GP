@@ -43,4 +43,12 @@ git branch -M main
 git push -u origin main
 
 
+basic workflow
+
+<do stuff>
+git add .  (adds everything that has changed into the buffer)
+git commit -m "say whatever you did"
+git push -u origin main (now updates the hub)
+
+
 anyways...
