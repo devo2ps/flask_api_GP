@@ -55,3 +55,7 @@ anyways...
 
 
 march 19 lol
+
+march 20 
+
+added the rest (GET, POST, PUT, DELETE) of the API endpoints and relevant functions in people.py
