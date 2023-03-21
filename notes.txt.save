@@ -58,30 +58,12 @@ march 19 lol
 
 march 20 
 
-added the rest (GET, POST, PUT, DELETE) of the API endpoints and relevant functions in people.py
-Now to write it up in the physical notes and move onto step two
+establishing the basic steps:
 
-https://realpython.com/flask-connexion-rest-api-part-2/
+these two go first
 
-march 21
+cd @*/flask_*
 
-Most modern web applications are powered by a REST API under the hood. That way, developers can separate the front-end code from the back-end logic, and users can interact with the interface dynamically. In this three-part tutorial series, you’re building a REST API with the Flask web framework.
-
-You’ve created a foundation with a basic Flask project and added endpoints, which you’ll connect to a SQLite database. You’re also testing your API with Swagger UI API documentation that you’re building along the way.
-
-In the first part, you used Flask and Connexion to create a REST API providing CRUD operations to an in-memory structure called PEOPLE. By doing so, you learned how the Connexion module helps you build a nice REST API and interactive documentation.
-
-In the second part of this tutorial series, you’ll learn how to:
-
-    Write SQL commands in Python
-    Configure a SQLite database for your Flask project
-    Use SQLAlchemy to save Python objects to your database
-    Leverage the Marshmallow library to serialize data
-    Connect your REST API with your database
-
-After finishing the second part of this series, you’ll move on to the third part, where you’ll extend your REST API with the functionality to add notes to a person. 
-
-
-flask-marshmallow is an extension of the marshmallow library, in this case to be used as a serializer, and helps add extra features when working in flask
-
-SQLite3 is great for python projects since it can be used immediately via pythons sqlite3 import and works without need for a whole sql server, just a single file that can be interacted with with pythons REPL in the command line. Using dbmaker and filler I was able to add a number of entities into it and then read them out via console commands/python functions.
+source venv/bin/activate
+ 
+python app.py
