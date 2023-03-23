@@ -1,16 +1,18 @@
 # people.py
 
 
-from datetime import datetime
+#from datetime import datetime (removed to make way for adjustments in part 2)
 from flask import abort
 from flask import abort, make_response
+
+from config import db
 
 
 def get_timestamp():
 
     return datetime.now().strftime(("%Y-%m-%d %H:%M:%S"))
 
-
+""" (removed to make adjustments for part 2)
 PEOPLE = {
 
     "Fairy": {
@@ -43,12 +45,18 @@ PEOPLE = {
 
     }
 
-}
+}"""
 
 
-def read_all():
 
-    return list(PEOPLE.values())
+def read_all(): #new read_all from part 2
+    people = Person.query.all()
+    return people_schema.dump(people)
+
+
+#def read_all():
+
+#    return list(PEOPLE.values())
     
     
 def create(person): #creates person obj, related to POST operation in yml file

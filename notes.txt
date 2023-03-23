@@ -85,3 +85,14 @@ After finishing the second part of this series, you’ll move on to the third pa
 flask-marshmallow is an extension of the marshmallow library, in this case to be used as a serializer, and helps add extra features when working in flask
 
 SQLite3 is great for python projects since it can be used immediately via pythons sqlite3 import and works without need for a whole sql server, just a single file that can be interacted with with pythons REPL in the command line. Using dbmaker and filler I was able to add a number of entities into it and then read them out via console commands/python functions.
+
+
+march 22
+
+
+ANY user input is an attack vector, an app like this with connecting flask with a sqlite db is open to SQL injections without properly configured prepared statements!
+
+One example that could be employed as things stand: GET /api/people/'Fairy';DROP TABLE person;
+ where 'Fairy' was specified by the user followed by a semicolon and drop table command
+ 
+ 'You can protect your program by sanitizing all data that you get from the users of your application. Sanitizing data in this context means having your program examine the user-supplied data to make sure that it doesn’t contain anything dangerous to the program. This can be tricky to do right and would have to be done everywhere user data interacts with the database.'
