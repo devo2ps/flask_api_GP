@@ -3,7 +3,7 @@
 
 from datetime import datetime
 
-from config import db
+from config import db, ma
 
 
 class Person(db.Model):
