@@ -96,3 +96,22 @@ One example that could be employed as things stand: GET /api/people/'Fairy';DROP
  where 'Fairy' was specified by the user followed by a semicolon and drop table command
  
  'You can protect your program by sanitizing all data that you get from the users of your application. Sanitizing data in this context means having your program examine the user-supplied data to make sure that it doesn’t contain anything dangerous to the program. This can be tricky to do right and would have to be done everywhere user data interacts with the database.'
+ 
+ 
+ 
+ march 23 time for p3
+ 
+ https://realpython.com/flask-connexion-rest-api-part-3/
+ 
+ Most modern web applications are powered by a REST API under the hood. That way, developers can separate the front-end code from the back-end logic, and users can interact with the interface dynamically. In this three-part tutorial series, you’re building a REST API with the Flask web framework.
+
+You’ve created a foundation with a basic Flask project and added endpoints, which you connected to a SQLite database. You’re also testing your API with Swagger UI API documentation that you’re building along the way.
+
+In the third part of this tutorial series, you’ll learn how to:
+
+    Work with multiple tables in a database
+    Create one-to-many fields in your database
+    Manage relationships with SQLAlchemy
+    Leverage nested schemas with Marshmallow
+    Display related objects in the front end
+
