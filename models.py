@@ -29,7 +29,7 @@ class NoteSchema(ma.SQLAlchemyAutoSchema):
         load_instance = True
         sqla_session = db.session
         include_fk = True
-    notes = fields.Nested(NoteSchema, many=True)
+    
 
 
 class Person(db.Model):
@@ -73,6 +73,8 @@ class PersonSchema(ma.SQLAlchemyAutoSchema):
 
 person_schema = PersonSchema()
 people_schema = PersonSchema(many=True)
+
+note_schema = NoteSchema()
 
 
 """
