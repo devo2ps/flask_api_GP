@@ -10,14 +10,28 @@
     <h1>
         Hello, folks!
     </h1>
-        <ul>
-        {% for person in people %} <!-->Added in p2 -->
+        
+        
+        <!--(commented out in p3)  -->
+ <!-- <ul> 
+        {% for person in people %} (This stuff was Added in p2 )
         <li>{{ person.fname }} {{ person.lname }}</li>
         {% endfor %}
+    </ul> 
+ (commented out in p3) -->
+ 
+     {% for person in people %}  <!-- Added in part 3  --> 
+    <h2>{{ person.fname }} {{ person.lname }}</h2>
+    <ul>
+        {% for note in person.notes %}
+        <li>
+            {{ note.content }}
+        </li>
+        {% endfor %}
     </ul>
+    {% endfor %}
 
-    
-    
+
     
 </body>
 </html>
