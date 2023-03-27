@@ -119,3 +119,5 @@ In the third part of this tutorial series, you’ll learn how to:
 march 24 
 populated the db with the db builder script, added in html to display notes from the db, added include_relationships=True to the PersonSchema meta class and also added a NoteSchema meta class. Additionally added a notes field to the personschema metaclass
 
+march 26
+took a day off unfortunately, today edited the swagger.yml file to handle notes and added a notes.py file to read them by ID at least
