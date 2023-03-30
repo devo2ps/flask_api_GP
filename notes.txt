@@ -121,3 +121,7 @@ populated the db with the db builder script, added in html to display notes from
 
 march 26
 took a day off unfortunately, today edited the swagger.yml file to handle notes and added a notes.py file to read them by ID at least
+
+march 29
+
+had to deal with moving, just reviewed the docs today will hopefully do more tomorrow
