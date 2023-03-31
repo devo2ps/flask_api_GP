@@ -125,3 +125,8 @@ took a day off unfortunately, today edited the swagger.yml file to handle notes 
 march 29
 
 had to deal with moving, just reviewed the docs today will hopefully do more tomorrow
+
+
+march 30
+
+reviewed more docs, trying to add some code fast
