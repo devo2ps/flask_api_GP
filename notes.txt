@@ -128,5 +128,7 @@ had to deal with moving, just reviewed the docs today will hopefully do more tom
 
 
 march 30
+added create(note) to notes.py and the note api endpoint (above notes/note_id) in the yml file. This finishes the basic api/flask app for now, but it still needs a better front end.
 
-reviewed more docs, trying to add some code fast
+march 31 
+tonight just reviewed notes about things like why having two tables (one for notes and one for people) can be better than just one unwieldly mega table. Also started reading about how to add a JS front end
