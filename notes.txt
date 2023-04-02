@@ -132,3 +132,6 @@ added create(note) to notes.py and the note api endpoint (above notes/note_id) i
 
 march 31 
 tonight just reviewed notes about things like why having two tables (one for notes and one for people) can be better than just one unwieldly mega table. Also started reading about how to add a JS front end
+
+april 1st
+discovered some permission issues with package installs and needed to work them out
